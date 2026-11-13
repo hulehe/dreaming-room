@@ -1,0 +1,12 @@
+---
+description: 改文档前的权威顺序、版本提示和提交确认
+alwaysApply: true
+---
+
+# 文档
+
+改 `Documents/` 前先读 `Documents/目录.md`，只读与这次改动有关的批示。不要复述目录或规格。
+
+- 权威顺序：PRD、批示、已确认规格、建议。没有批示不派工、不改 PRD。
+- 正文升版本时，当次回复写明版本号、文件和原因，并写入 `Documents/版本记录.md` 与 `Documents/汇报/`。
+- 用户当次没有明确要求时，不执行 git commit 或 git push。
